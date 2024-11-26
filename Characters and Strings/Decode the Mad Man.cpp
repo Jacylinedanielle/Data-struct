@@ -7,9 +7,9 @@ int main()
 	
 	while(cin.get(c))
 	{
-		c=tolower(c);
+		c=tolower(c); //everything should be in lowercase
 		
-		char *p = strchr(s,c);
+		char *p = strchr(s,c); //from c, look for the content in s
 		
 		if(p)
 		{
